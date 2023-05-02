@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
               ),
               Text(
                 'Baiboly Malagasy',
-                style: GoogleFonts.lora(
+                style: GoogleFonts.merriweather(
                   textStyle: const TextStyle(
                     color: Colors.white,
                     fontSize: 28,
@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 80,
+                height: 60,
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 32),
